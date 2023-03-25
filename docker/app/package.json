@@ -1,0 +1,16 @@
+{
+  "name": "docker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/main.js",
+    "dev": "nodemon src/main.js"
+  },
+  "dependencies": {
+    "koa": "^2.13.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
