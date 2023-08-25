@@ -9,4 +9,4 @@ services: # The containers we are going to run
     volumes:
       - ./app/src:/app/src # To copy changes in the local machine to the container.
     ports:
-      - "8000:3000" # To expose the app to the machine localhost (machine-port:container:port)
+      - "3000:3000" # To expose the app to the machine localhost (machine-port:container:port)
